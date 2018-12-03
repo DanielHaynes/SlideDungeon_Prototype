@@ -1,2 +1,1 @@
-* linguist-vendored
-*.cs linguist-vendored=false
+TemplateData/* linguist-vendored
