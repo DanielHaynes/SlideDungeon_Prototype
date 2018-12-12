@@ -1,15 +1,55 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en-us">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Slide Dungeon</title>
+    <title>Slide Dungeon</title>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Slide Dungeon.json");
+        var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Slide_Dungeon_2.json");
     </script>
-  </head>
-  <body>
-    <div id="gameContainer" style="width: 750px; height: 1334px; margin: auto"></div>
-  </body>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+</head>
+<body>
+    <div id="gameContainer" style="width: 750px; height: 1334px; display:inline-block; float: left"></div>
+    <div style="float: left; display: inline-block; padding: 20px; font-family: 'Amatic SC', cursive; font-size: 50px">
+        <h1 style="text-align: center">
+            THANK YOU FOR PLAYING!
+        </h1>
+        <h2 style="text-align: center">Instructions</h2>
+        <div>
+            Use the arrow keys to move the cards on the screen. <br />
+            All cards will move if there is an available space in that direction. <br />
+            Make sure that your sword is the same value as the skull you're attacking. <br />
+            Move the <img align="middle" src="images/hero_template.png" alt="anvil" width="100" height="170"> around to survive for as long as you can, and collect as many coins as possible!
+        </div>
+        <div style="vertical-align: central">
+            Warning!
+            <img align="middle" src="images/skull_t.png" alt="anvil" width="100" height="100">
+            will take 1 bar of health depending on their value / 3
+        </div>
+        <div style="vertical-align: central">
+            Combine
+            <img align="middle" src="images/anvil_t.png" alt="anvil" width="100" height="100">
+            +
+            <img align="middle" src="images/ingot_t.png" alt="Mountains" width="100" height="100">
+            to create
+            <img align="middle" src="images/war_t.png" alt="Mountains" width="100" height="100">
+        </div>
+        <div style="vertical-align: central">
+            Attack
+            <img align="middle" src="images/skull_t.png" alt="anvil" width="100" height="100">
+            with
+            <img align="middle" src="images/war_t.png" alt="Mountains" width="100" height="100">
+            to drop
+            <img align="middle" src="images/gold_t.png" alt="Mountains" width="100" height="100">
+        </div>
+        <div style="vertical-align: central">
+            Collect
+            <img align="middle" src="images/bottle_t.png" alt="anvil" width="100" height="100">
+            to increase your hp by the card value / 3
+        </div>
+    </div>
+</body>
 </html>
+
