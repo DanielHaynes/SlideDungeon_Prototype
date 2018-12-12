@@ -1,2 +1,2 @@
 # SlideDungeon_Prototype
-Core Mechanics in game. Still no tutorial or finalized art.
+Slide game is a mash up of my favorite casual mobile game Threes! and the card game like Card Crawl. 
